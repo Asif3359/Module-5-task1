@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position:center;
+}
+.banner-container{
+    display: flex;
+    text-align: right;
+    height: 100vh; 
+    align-items: center;
+    padding-right: 50px;
+    margin-right: 50px;
+    justify-content: right;
+}
+.banner-text{
+    padding-left: 350px;
+}
+.banner-title{
+    color: var(--dark-01, #151414);
+    text-align: right;
+    font-size: 60px;
+}
+.banner-paragraph{
+    color: var(--dark-02, #444343);
+    text-align: right;
+    font-size: 20px;
+}
+.banner-button{
+    padding: 12px 20px ;
+    border: none;
+    background-color: rgba(255, 68, 0, 0.564);
+   
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.banner-button:hover{
+    background-color: orangered;
+}
+/* second banner */
+.second-banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:100px;  
+    background-color: aqua;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.second-banner-img{
+    width: 400px;
+    border-radius: 600px;
+    border: 1px solid gray;
+    margin: 30px;
+}
+.second-banner-text{
+    padding-right: 30px;
+}
+.second-banner-title{
+    color: #151414;
+    font-size: 40px;
+}
+.second-banner-paragraph{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+}
+.banner-unorderd-list{
+    list-style:circle;
+    color: var(--dark-02, #444343);
+    line-height: 26px
+}
