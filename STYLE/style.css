@@ -96,8 +96,7 @@ body{
     width: 50px;
 }
 .callme-container{
-    border: 1px solid red;
-    background-image: url("../images/watch.png"),url("../images/gradient1.png") ;
+    background-image:linear-gradient(to left, rgba(255,0,0,0), rgb(61, 59, 59)), url("../images/watch.png");
     background-repeat: no-repeat;
     padding: 60px;
     background-size: cover;
@@ -116,5 +115,44 @@ body{
     color: white;
 }
 .callme-button:hover{
-    background-color:  orangered;;
+    background-color:  orangered;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 60px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    
+}
+.footer-title{
+    font-size: 40px;
+    font-style: normal;
+}
+.footer-paragraph{
+    font-style: normal;
+}
+.footer-address{
+    font-style: normal;
+    text-decoration: none
+}
+.email{
+    color: white;
+}
+.footer-input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.footer-button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.564);
+}
+.footer-button:hover{
+    background-color:  orangered;
+
 }
